@@ -60,7 +60,6 @@ namespace Paynet_Test_API
             return NoContent();
         }
 
-        // DELETE api/<ValuesController>/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {

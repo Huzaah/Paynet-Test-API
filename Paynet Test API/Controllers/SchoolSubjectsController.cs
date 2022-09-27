@@ -36,7 +36,7 @@ namespace Paynet_Test_API
             return schoolSubject;
         }
 
-        // PUT: api/SchoolSubjects/5
+        // PUT: Subjects/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
         public async Task<IActionResult> PutSchoolSubject(int id, SchoolSubject schoolSubject)

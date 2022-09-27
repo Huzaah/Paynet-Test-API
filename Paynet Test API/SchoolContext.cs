@@ -25,7 +25,7 @@ namespace Paynet_Test_API
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Data Source=USER-PC;Initial Catalog=School;Integrated Security=True");
+                optionsBuilder.UseSqlServer("Data Source=(local);Initial Catalog=School;Integrated Security=True");
             }
         }
 
